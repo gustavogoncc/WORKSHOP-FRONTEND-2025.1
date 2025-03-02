@@ -6,7 +6,7 @@ Em anexo, é apresentado o projeto que defini como a aplicação web que exibe c
 
 ### Demonstarção (Opcional)
 
-[Além disso, é enviado aoceiver um link della grabala live] (essa parte deve ser com deploy online)
+https://pokemon-cartas-workshop.vercel.app/
 
 ### Funções
 
