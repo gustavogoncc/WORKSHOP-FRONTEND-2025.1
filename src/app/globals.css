@@ -1,24 +1,31 @@
 @import "tailwindcss";
 
-@theme {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+--background: #f5f5f5;        /* Cinza claro para o fundo geral /
+--foreground: #333333;        / Cinza escuro para o texto principal /
+--primary: #ffcb05;           / Amarelo Pikachu /
+--secondary: #3b4cca;         / Azul Pokémon /
+--accent: #dc0a2d;            / Vermelho da Pokébola /
+--grass: #9bcc50;             / Verde grama /
+--water: #4592c6;             / Azul água /
+--fire: #fd7d24;              / Laranja fogo */
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+--background: #1a1a1a;        /* Cinza escuro para o fundo geral /
+--foreground: #eeeeee;        / Cinza claro para o texto principal /
+--primary: #f7d745;           / Amarelo Pikachu (mais claro) /
+--secondary: #6a83d8;         / Azul Pokémon (mais claro) /
+--accent: #f03a54;            / Vermelho da Pokébola (mais claro) /
+--grass: #aedf72;             / Verde grama (mais claro) /
+--water: #68ace0;             / Azul água (mais claro) /
+--fire: #fea76b;              / Laranja fogo (mais claro) */
+}
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+color: var(--foreground);
+background: var(--background);
+font-family: "Pokemon Solid", sans-serif; /* ou outra fonte temática */
 }
