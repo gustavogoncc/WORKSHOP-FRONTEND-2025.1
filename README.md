@@ -115,10 +115,6 @@ Contribuição  (opcionais)
 4.  Faça push para a branch: `git push origin my-new-feature`;
 5.  Envie um pull request . .   . 
 
-## Licença (Opcional)
-
-Este projeto está licenciado sob a licença [Tipo de Licença] - veja o arquivo [LICENSE.md] para mais detalhes.
-
 ## Autores
 
 * Gustavo Gonçalves
